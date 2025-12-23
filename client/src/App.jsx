@@ -5,7 +5,7 @@ import LandingPage from "./components/LandingPage.jsx";
 import { BrowserRouter, Route, Routes } from "react-router";
 import { Navbar } from "./components/Navbar.jsx";
 import { Footer } from "./components/Footer.jsx";
-import { Queue } from "./components/Queue.jsx";
+import { Queue } from "./components/queue/Queue.jsx";
 
 function App() {
   const [theme, setTheme] = useState(() => {
