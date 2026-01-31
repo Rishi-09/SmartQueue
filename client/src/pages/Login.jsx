@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { updateInput } from "../redux/features/loginSlice";
-import { setUser } from "../redux/features/userSlilce";
+import { setUser } from "../redux/features/userSlice.js";
 import api from "../api/api.js";
 import { motion } from "framer-motion";
 import { Lock, Mail } from "lucide-react";

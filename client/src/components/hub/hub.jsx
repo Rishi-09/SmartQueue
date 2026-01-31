@@ -4,7 +4,7 @@ import api from "../../api/api.js";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import QueueCard from "./QueueCard.jsx";
-import { setUser, clearUser } from "../../redux/features/userSlilce.js";
+import { setUser, clearUser } from "../../redux/features/userSlice.js";
 import { useNavigate } from "react-router";
 const Hub = () => {
   const theme = useSelector((state) => state.theme.mode);

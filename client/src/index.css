@@ -1,1 +1,6 @@
 @import 'tailwindcss';
+/* Hide default calendar/clock icon */
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  cursor: pointer;
+}
