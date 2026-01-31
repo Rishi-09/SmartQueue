@@ -12,7 +12,7 @@ import ScrollToTop from "./components/utils/ScrollToTop.jsx";
 import api from "./api/api.js";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { setUser, clearUser } from "./redux/features/userSlilce.js";
+import { setUser, clearUser } from "./redux/features/userSlice.js";
 import ProtectedRoute from "./components/utils/ProtectedRoute.jsx";
 function App() {
   const dispatch = useDispatch();
